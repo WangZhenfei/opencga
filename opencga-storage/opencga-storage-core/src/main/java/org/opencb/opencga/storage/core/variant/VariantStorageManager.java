@@ -141,7 +141,7 @@ public abstract class VariantStorageManager implements StorageManager<VariantWri
      * @throws IOException
      */
     @Override
-    final public URI transform(URI inputUri, URI pedigreeUri, URI outputUri, ObjectMap params) throws StorageManagerException {
+    public URI transform(URI inputUri, URI pedigreeUri, URI outputUri, ObjectMap params) throws StorageManagerException {
         // input: VcfReader
         // output: JsonWriter
 
